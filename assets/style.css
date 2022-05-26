@@ -9,8 +9,6 @@
 }
 
 
-
-
 .one-inner {
   grid-column: 2 / 20;
   grid-row: 2 / 20;
@@ -22,8 +20,8 @@
 }
 
 .kill-left {
-  grid-column: 10 / 20;
-  grid-row: 15 / 20;
+  grid-column: 10 / 19;
+  grid-row: 15 / 19;
   background-color: blue;
   height: 10px;
   width: 10px;
@@ -31,7 +29,7 @@
 
 .kill-left {
   grid-column: 8 / 20;
-  grid-row: 5 / 20;
+  grid-row: 5 / 19;
   background-color: blue;
   height: 10px;
   position: relative;
