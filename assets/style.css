@@ -14,7 +14,6 @@
 }
 
 .one-outer {
-  background-color: grey;
   grid-column: 3 / 19;
   grid-row: 3 / 19;
 }
@@ -26,7 +25,6 @@
 }
 
 .two-outer {
-  background-color: grey;
   grid-column: 5 / 17;
   grid-row: 5 / 17;
 }
@@ -38,7 +36,6 @@
 }
 
 .three-outer {
-  background-color: grey;
   grid-column: 7 / 15;
   grid-row: 7 / 15;
 }
@@ -50,7 +47,6 @@
 }
 
 .four-outer {
-  background-color: grey;
   grid-column: 9 / 13;
   grid-row: 9 / 13;
 }
@@ -61,7 +57,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(45deg);
   border: 1px solid black;
 }
 
