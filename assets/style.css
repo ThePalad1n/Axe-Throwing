@@ -8,6 +8,19 @@
   grid-template-rows: repeat(20, 1fr);
 }
 
+
+
+
+.one-inner {
+  grid-column: 2 / 20;
+  grid-row: 2 / 20;
+}
+
+.one-outer {
+  grid-column: 3 / 19;
+  grid-row: 3 / 19;
+}
+
 .kill-left {
   grid-column: 10 / 20;
   grid-row: 15 / 20;
@@ -23,17 +36,6 @@
   height: 10px;
   position: relative;
   width: 10px;
-}
-
-
-.one-inner {
-  grid-column: 2 / 20;
-  grid-row: 2 / 20;
-}
-
-.one-outer {
-  grid-column: 3 / 19;
-  grid-row: 3 / 19;
 }
 
 .two-inner {
