@@ -1,18 +1,7 @@
-$color-border: black;
-$color-white: white;
-$color-black: black;
-$color-blue: #20ace6;
-$color-red: #fa1e1e;
-$color-gold: #fafa48;
-
-
-[class$="inner"] {
-  border: 1px solid $color-border;
-}
 
 .target {
   display: grid;
-  border: 1px solid $color-border;
+  border: 1px solid;
   height: 400px;
   width: 400px;
   grid-template-columns: repeat(20, 1fr);
@@ -25,7 +14,7 @@ $color-gold: #fafa48;
 }
 
 .one-outer {
-  background-color: $color-black;
+  background-color: grey;
   grid-column: 3 / 19;
   grid-row: 3 / 19;
 }
@@ -33,11 +22,11 @@ $color-gold: #fafa48;
 .two-inner {
   grid-column: 4 / 18;
   grid-row: 4 / 18;
-  border: 1px solid $color-white;
+  border: 1px solid grey;
 }
 
 .two-outer {
-  background-color: $color-blue;
+  background-color: grey;
   grid-column: 5 / 17;
   grid-row: 5 / 17;
 }
@@ -48,7 +37,7 @@ $color-gold: #fafa48;
 }
 
 .three-outer {
-  background-color: $color-red;
+  background-color: grey;
   grid-column: 7 / 15;
   grid-row: 7 / 15;
 }
@@ -59,7 +48,7 @@ $color-gold: #fafa48;
 }
 
 .four-outer {
-  background-color: $color-gold;
+  background-color: grey;
   grid-column: 9 / 13;
   grid-row: 9 / 13;
 }
@@ -78,7 +67,7 @@ div {
 }
 
 .bull {
-  background-color: $color-border;
+  background-color: red;
   height: 10px;
   position: relative;
   width: 2px;
@@ -86,7 +75,7 @@ div {
 }
 
 .bull:after {
-  background-color: $color-border;
+  background-color: red;
   content: "";
   height: 2px;
   left: -4px;
