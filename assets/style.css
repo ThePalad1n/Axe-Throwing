@@ -27,12 +27,11 @@
   width: 10px;
 }
 
-.kill-left {
-  grid-column: 8 / 20;
+.kill-right {
+  grid-column: 8 / 19;
   grid-row: 5 / 19;
   background-color: blue;
   height: 10px;
-  position: relative;
   width: 10px;
 }
 
@@ -86,8 +85,7 @@ div {
   background-color: red;
   height: 10px;
   position: relative;
-  width: 2px;
-  border-radius: 0;
+  width: 10px;
 }
 
 .bull:after {
