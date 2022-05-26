@@ -8,6 +8,27 @@
   grid-template-rows: repeat(20, 1fr);
 }
 
+.kill-left {
+  grid-column: 6 / 20;
+  grid-row: 4 / 20;
+  background-color: blue;
+  height: 10px;
+  position: relative;
+  width: 2px;
+  border-radius: 0;
+}
+
+.kill-left {
+  grid-column: 14 / 20;
+  grid-row: 4 / 20;
+  background-color: blue;
+  height: 10px;
+  position: relative;
+  width: 2px;
+  border-radius: 0;
+}
+
+
 .one-inner {
   grid-column: 2 / 20;
   grid-row: 2 / 20;
