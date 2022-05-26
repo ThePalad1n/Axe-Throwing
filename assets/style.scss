@@ -1,0 +1,104 @@
+$color-border: black;
+$color-white: white;
+$color-black: black;
+$color-blue: #20ace6;
+$color-red: #fa1e1e;
+$color-gold: #fafa48;
+
+
+[class$="inner"] {
+  border: 1px solid $color-border;
+}
+
+.target {
+  display: grid;
+  border: 1px solid $color-border;
+  height: 400px;
+  width: 400px;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.one-inner {
+  grid-column: 2 / 20;
+  grid-row: 2 / 20;
+}
+
+.one-outer {
+  background-color: $color-black;
+  grid-column: 3 / 19;
+  grid-row: 3 / 19;
+}
+
+.two-inner {
+  grid-column: 4 / 18;
+  grid-row: 4 / 18;
+  border: 1px solid $color-white;
+}
+
+.two-outer {
+  background-color: $color-blue;
+  grid-column: 5 / 17;
+  grid-row: 5 / 17;
+}
+
+.three-inner {
+  grid-column: 6 / 16;
+  grid-row: 6 / 16;
+}
+
+.three-outer {
+  background-color: $color-red;
+  grid-column: 7 / 15;
+  grid-row: 7 / 15;
+}
+
+.four-inner {
+  grid-column: 8 / 14;
+  grid-row: 8 / 14;
+}
+
+.four-outer {
+  background-color: $color-gold;
+  grid-column: 9 / 13;
+  grid-row: 9 / 13;
+}
+
+.five-inner {
+  grid-column: 10 / 12;
+  grid-row: 10 / 12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+}
+
+div {
+  border-radius: 50%;
+}
+
+.cross {
+  background-color: $color-border;
+  height: 10px;
+  position: relative;
+  width: 2px;
+  border-radius: 0;
+}
+
+.cross:after {
+  background-color: $color-border;
+  content: "";
+  height: 2px;
+  left: -4px;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #E6EE9C;
+}
